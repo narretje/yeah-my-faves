@@ -1,0 +1,43 @@
+/* hide default Favorite SVG */
+:root {
+--cOrange: rgba(255, 165, 0, 0) !important;
+}
+
+/* Favorite button (before interaction) is a Yeah! button */
+
+.FavoriteButton>button{
+background-image:url('https://media.nede.re/media/2659b96691eca4545072d586eeaed491f93b65f3b73cd69b88f43fe473ed4bfd.png');
+background-size: 51px;
+
+}
+
+.FavoriteButton>button>svg{
+   color:transparent;
+}
+
+.FavoriteButton>button>.fa-star>path{
+
+	color: transparent;
+
+}
+
+/* adjust distance between button and like counter */
+
+.FavoriteButton>span{
+   margin-left:6px;
+}
+
+/* Favorite button (after interaction) is a Nah... button */
+
+.button-unstyled.interactive.-favorited{
+background-image:url('https://media.nede.re/media/177b494ee500daff8e8399905921af9319865757b757bf54168f7dd4dcdec59b.png');
+background-size: 51px;
+
+}
+
+/* Change favorite icon in notification feed ("X liked your post) to a Yeah! button */
+
+.svg-inline--fa.fa-star.type-icon{
+   background-image: url(https://media.nede.re/media/2b9a207ce7503a526ee2a96cf6b728c9575228da6a55a3bbdb763e691a5100d6.png);
+  background-size: 15px;
+}
