@@ -1,3 +1,5 @@
+/* Note that if you are an admin injecting this into your instance's static directory custom.css, only logged-in users will be able to see the changes. */
+
 /* hide default Favorite SVG */
 :root {
 --cOrange: rgba(255, 165, 0, 0) !important;
