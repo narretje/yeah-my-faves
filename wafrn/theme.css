@@ -1,0 +1,11 @@
+/* Paste this into WAFRN's user theme editor. Upload the yuh.png and nuh.png files to an accessible image hosting of your choice, like your WAFRN instance.*/
+
+fa-icon[mattooltip="Like woot"] { 
+     content:url('yuh.png');
+height:25px;
+}
+
+fa-icon[mattooltip="Remove like"] { 
+     content:url('nuh.png');
+height:25px;
+}
