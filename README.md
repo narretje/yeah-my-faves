@@ -12,7 +12,7 @@ Depending on software you use, applying the CSS will differ.
 WAFRN has a theme editor which you can use to inject your style. The changes will be seen by other users on your profile.
 
 ### Akkoma
-**As an user**: Use an userstyle browser extension to paste the code.
+**As an user**: Use an userstyle browser extension to paste the code.  
 **As an admin - with access to server files**: Paste the code into custom.css found in Akkoma's static directory.
 
 **Software not listed above is not supported at the moment.**
